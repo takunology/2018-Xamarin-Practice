@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HelloXamarin"
+             x:Class="HelloXamarin.MainPage">
+
+    <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" Opacity="1.0">
+        <Label.FormattedText>
+            <FormattedString>
+                <Span Text=" Hello,Xamarin! " BackgroundColor="Black" ForegroundColor="White"/>
+                <Span Text="{x:Static x:Environment.NewLine}" />
+                <Span Text="{x:Static x:Environment.NewLine}" />
+                <Span Text="This Application"/>
+                <Span Text="{x:Static x:Environment.NewLine}" />
+                <Span Text="Developed by Takunology"/>
+                <Span Text="{x:Static x:Environment.NewLine}" />
+                <Span Text="{x:Static x:Environment.NewLine}" />
+                <Span Text=" 日本語にも対応 " BackgroundColor="Green" ForegroundColor="White"/>
+            </FormattedString>
+        </Label.FormattedText>
+    </Label>
+    
+    
+    <!--    <Label Text="This is a Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="CenterAndExpand" />
+-->
+    
+</ContentPage>
